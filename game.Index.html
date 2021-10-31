@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>KWITTER PROJECT</title>
+        <link rel="stylesheet"  href="game.style.css">
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body id="body-background2">
+        <button onclick="logout()">Logout</button>
+        <br><br>
+        <center>
+        <h3 id="name"></h3>
+        <br><br>
+        <button onclick="add_room()" id="add_room">Add room!</button>
+        <br><br>
+        <input input-type="text" id="room_name" placeholder="enter room name">
+        <br><br>
+        <image id = "bird2" src="https://s3.envato.com/files/303898002/preview.jpg"></image>
+        <br><br>
+        <h3 id="trending_rooms">#Trending Rooms</h3>
+        <div id="output"></div>
+        </center>
+        <script src="game.main.js"></script>
+        </body>
+        </html>
